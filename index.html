@@ -1,11 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Spectra Connect </title>
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/sal.css">
 </head>
+
 <body>
-    <h1>Vinoth</h1>
+    <header>
+        <div class="menu-panel"></div>
+        <!-- navbar-section-starts -->
+        <div class="top-navbar">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-auto">
+                        <ul class="top-navbar-list">
+                            <li><i class="fas fa-phone-alt"></i><a href="tel:+919972834623">99728 34623</a></li>
+                            <li><i class="fas fa-envelope"></i><a href="mailto:spectraconnect419@gmail.com">spectraconnect419@gmail.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-auto">
+                        <ul class="top-navbar-list">
+                            <li><i class="fas fa-sign-in-alt"></i><a Customer href="#" data-toggle="modal" data-target="#otp-login">Customer
+                                    Login</a></li>
+                            <li><i class="fas fa-user-shield"></i><a href="#" data-toggle="modal" data-target="#agent-login">
+                                    Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-navbar">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md-auto">
+                        <a href="#" class="logo">
+                            <img src="assets/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-md-auto">
+                        <ul class="bottom-navbar-list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Manage Ticket</a></li>
+                            <li><a href="#">Track My Bus</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <!-- navbar-section-ends -->
+
+    <!-- body-section-starts -->
+    <div class="body-section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6">
+                    <h6>Spectre Connect</h6>
+                    <h2><b>A Great Journey</b> With us</h2>
+                    <p>We are the creators of India’s 1st comfort of branded buses that
+                        guarantee safe & comfortable journeys.
+                    </p>
+                    <img src="assets/images/slider-1.png" alt="slider-1" width="100%">
+                </div>
+                <div class="col-md-auto">
+                    <div class="booking-form">
+                        <h4>For Booking</h4>
+                        <h6>Where would you like to go?</h6><br>
+                        <form id="form-section">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group booking-group">
+                                        <img class="booking-icon" src="assets/images/from.svg" alt="starting-icon">
+                                        <label for="Starting point" class="booking-label">From</label>
+                                        <input type="text" class="form-control booking-control" id="Starting point" placeholder="Select from the city">
+                                        <span class="swap-icon"><a href="#"><i class="fas fa-exchange-alt"></i></a></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group booking-group">
+                                        <img class="booking-icon" src="assets/images/to-img.svg" alt="destination icon">
+                                        <label for="destination point" class="booking-label">To</label>
+                                        <input type="text" class="form-control booking-control" id="destination" placeholder="Select to the city">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group booking-group">
+                                        <img class="booking-icon" src="assets/images/cal1.svg" alt="journey icon">
+                                        <label for="journey-date" class="booking-label">Journey Date</label>
+                                        <input type="date" class="form-control booking-control" id="journey-date">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group booking-group">
+                                        <img class="booking-icon" src="assets/images/cal2.svg" alt="return icon">
+                                        <label for="return-date" class="booking-label">Return Date</label>
+                                        <input type="date" class="form-control booking-control" id="return-date">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- body-section-ends -->
+
+
+    <!-- about-section-starts -->
+    <div class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h6>About us</h6>
+                    <h2><b>Spectra</b> Connect</h2><br />
+                    <p>Spectra Connect providing travel solutions to their
+                        passengers with best in class quality by operating brand
+                        good branded with well experienced professionals. Some
+                        of the Important routes of Spectra Connect include
+                        Mysore to Goa to Mysore</p>
+                    <p>Book Spectra Connect tickets online in website and from
+                        your mobile with few easy steps.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/about-bus.png" alt="about-bus" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about-section-end -->
+
+    <!-- Amenities -->
+
+    <div class="Amenity">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="Amenity-inner">
+                        <img src="assets/images/amenity-1.png" alt="Reading lamp">
+                        Reading Lamp
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="Amenity-inner">
+                        <img src="assets/images/amenity-2.png" alt="charging point">
+                        Charging Point
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="Amenity-inner">
+                        <img src="assets/images/amenity-3.png" alt="blanket">
+                        Blanket
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="Amenity-inner">
+                        <img src="assets/images/amenity-4.png" alt="Water Bottle">
+                        Water Bottle
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="Amenity-inner">
+                        <img src="assets/images/amenity-5.png" alt="Personal Wifi">
+                        Personal Wifi
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="Amenity-inner">
+                        <img src="assets/images/amenity-6.png" alt="Entertainment">
+                        Entertainment
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Amenities -->
+
+    <!-- features-section -->
+    <div class="features-section">
+        <h6>About us</h6>
+        <h2><b>Features</b> We Provide</h2><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="feature-column">
+                        <img src="assets/images/feature-1.png" alt="feature-1">
+                        <h6>Bus Captain</h6>
+                        <p>Unwind in our clean and
+                            secure sleeper berths
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-column">
+                        <img src="assets/images/feature-2.png" alt="feature-2">
+                        <h6>Boarding Crew</h6>
+                        <p>Our trained staff helps
+                            you with easy check-in
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-column">
+                        <img src="assets/images/feature-3.png" alt="feature-3">
+                        <h6>Comfy Sleepers</h6>
+                        <p>Professional bus
+                            captain will assist you
+                            throught the journey
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-column">
+                        <img src="assets/images/feature-4.png" alt="feature-4">
+                        <h6>Luggage Handling</h6>
+                        <p>Personalized luggage
+                            handling by trained staff
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- service-section-stars -->
+        <div class="service-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" data-sal="zoom-in" data-sal-duration="1500">
+                        <img src="assets/images/service-bus.png" alt="service-bus" width="100%">
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Spectra Connect</h6>
+                        <h2><b>Services</b> We Provide</h2><br>
+                        <p>Your search for the best and affordable deals on top
+                            searched routes in India ends here. Choose from Sleeper,
+                            Semi-Sleeper, Volvo and many more buses while booking
+                            online and get the affordable fare, multiple paying options,
+                            Best discounts and 24x7 customer service.</p><br>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i>Fast Booking</li>
+                            <li><i class="fas fa-check-circle"></i>Stress Free</li>
+                            <li><i class="fas fa-check-circle"></i>Spend Less</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service-section-ends-->
+
+    <!-- routes-section-stars -->
+    <div class="routes-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>Spectra Connect</h6>
+                    <h2><b>Popular </b>Routes</h2><br>
+                    <p>We are professional team, With good
+                        experience & passionate about our
+                        service for you and we have quality
+                        completed buses for your travel.</p>
+                </div>
+                <div class="col-md-9">
+                    <div class="route-slider" data-sal="zoom-in" data-sal-duration="2000">
+                        <div class="route-inner">
+                            <img src="assets/images/route-1.png" alt="Mysore" loading="lazy">
+                            <h5>MYSORE</h5>
+                        </div>
+                        <div class="route-inner">
+                            <img src="assets/images/route-2.png" alt="Goa" loading="lazy">
+                            <h5>GOA</h5>
+                        </div>
+                        <div class="route-inner">
+                            <img src="assets/images/route-3.png" alt="Bangalore" loading="lazy">
+                            <h5>BANGALORE</h5>
+                        </div>
+                        <div class="route-inner">
+                            <img src="assets/images/route-2.png" alt="Goa" loading="lazy">
+                            <h5>GOA</h5>
+                        </div>
+                        <div class="route-inner">
+                            <img src="assets/images/route-1.png" alt="Mysore" loading="lazy">
+                            <h5>MYSORE</h5>
+                        </div>
+                        <div class="route-inner">
+                            <img src="assets/images/route-3.png" alt="Bangalore" loading="lazy">
+                            <h5>BANGALORE</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-start -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/footer-logo.png" alt="Logo" width="100%"><br>
+                    <p>Book Spectra Connect tickets online in
+                        website and from your mobile with few easy
+                        steps.
+                        Go to My Bookings to manage your account.<br>
+                        Go to <b>My Bookings</b> to manage your account.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="faq">FAQ</a></li>
+                        <li><a href="terms">Terms & Conditions</a></li>
+                        <li><a href="feedback">Feedback</a></li>
+                        <li><a href="contact">Contact</a></li>
+                        <li><a href="boarding-places">Boarding Places</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Manage Ticket</h4>
+                    <ul class="footer-links">
+                        <li><a href="manage-ticket">Download Ticket </a></li>
+                        <li><a href="track-my-bus">Track Your Bus</a></li>
+                        <li><a href="manage-ticket">Cancel Ticket</a></li>
+                        <li><a href="manage-ticket">Change Boarding Point </a></li>
+                        <li><a href="manage-ticket">Change Travel Date</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Head Office</h4>
+                    <ul class="footer-links">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>Spectra Connect, Mysore
+                        </li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:9972834623">99728 34623</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:spectraconnect419@gmail.com">spectraconnect419@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-auto">
+                    <p>Copyright © 2023 - Spectra Connect</p>
+                </div>
+                <div class="col-md-auto">
+                    <p>Powered By <img src="assets/images/Capture.PNG" alt="Ezee bus"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/fonts/js/all.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/sal.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            sal();
+            $('.route-slider').slick({
+                arrows: true,
+                autoplay: true,
+                speed: 1500,
+                autoplaySpeed: 1000,
+                slidesToShow: 3,
+                cssEase: 'ease',
+                slidesToScroll: 1,
+                responsive: [{
+                        breakpoint: 768,
+                        settings: {
+                            infinite: true,
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            infinite: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
 </body>
+
 </html>
