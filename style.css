@@ -129,7 +129,7 @@ body {
 
 /* .about-section */
 .about-section {
-    background: url(../images/about-bg.png) no-repeat;
+    background: url(about-bg.png) no-repeat;
     background-size: 100% 95%;
     padding: 50px 0;
 }
@@ -155,7 +155,7 @@ body {
 
 /* features-section */
 .features-section {
-    background: url(../images/service-bg.png) no-repeat 0px 7em;
+    background: url(service-bg.png) no-repeat 0px 7em;
     background-size: 100% 88%;
 }
 
